@@ -1,15 +1,15 @@
 #category #main { height: 468px; }
 
-#listing { 
+#listing {
   ul {
     line-height: 50px;
     @include rounded(10px);
   }
   img { padding-right: 8px; }
-  
+
   li {
     list-style: none;
-    
+
     a {
       width: 200px;
       margin: 10px;
@@ -19,8 +19,9 @@
       color:  $base;
       font-size: 1.3em;
       margin-left: 1em;
+      padding-left: 60px;
       @extend %transition;
-      
+
       &:hover {
         @include rounded(8px);
         background-color: $accent;
