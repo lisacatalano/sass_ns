@@ -16,9 +16,9 @@
   font-weight: bold;
   font-size: 1.2em;
   list-style: none;
-  
-  li { 
-    float: left; 
+
+  li {
+    float: left;
     a {
       position: relative;
       display: block;
@@ -37,7 +37,7 @@
       border-radius: 15px 15px 0 0;
       behavior: url(PIE.htc);
       @extend %transition;
-      
+
       &:hover {
         background-color: $accent;
         border: 5px solid $accent;
@@ -52,19 +52,19 @@
         cursor: default;
       }
     }
-    
-  
+
+
     li a[href^="#reviews"] { margin-right: 0; }
   }
-  
+
   li.detail a { background-position: 0 -43px; }
   li.video a  { background-position: 0 -129px; }
   li.review a { background-position: 0 -215px; }
-  
+
   li.detail a.active { background-position: 0 0px; }
   li.video  a.active { background-position: 0 -86px; }
   li.review a.active { background-position: 0 -172px; }
-  
+
   img {
     vertical-align: middle;
     margin: 0 10px;
@@ -86,24 +86,24 @@
 
 }
 
-#col1 { 
-  float: left; 
-  width: 200px; 
-  padding: 15px; 
-  
+#col1 {
+  float: left;
+  width: 200px;
+  padding: 15px;
+
   .stock { font-size: 2em; }
 
   p { font-size: .9em; line-height: 1.3em; }
 }
 
 #col2 {
-  float: left; 
-  width: 370px; 
-  padding: 15px; 
-  
-  .description { 
-    clear: left; 
-    padding-top: 15px; 
+  float: left;
+  width: 370px;
+  padding: 15px;
+
+  .description {
+    clear: left;
+    padding-top: 15px;
   }
 }
 
@@ -111,10 +111,10 @@
   clear: both;
   overflow: hidden;
 }
-.classify { 
-  clear: right; 
-  margin-top: 10px; 
-  
+.classify {
+  clear: right;
+  margin-top: 10px;
+
   p {
     line-height: 35px;
     float: left;
@@ -134,7 +134,7 @@
   width: 590px;
   margin: auto;
   padding: 20px;
-  
+
   img { float: left; }
   h3 { float: left; margin: 0 0 5px 5px; font-size: 1.1em;}
   p { line-height: 1.4em; margin: 0 0 1.2em 0; }
