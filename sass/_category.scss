@@ -39,6 +39,11 @@ $category:  "ball",
         @include rounded(8px);
         background-color: $accent;
       }
+
+/*      span:after {
+        content: ".";
+        font-size: 0em;
+      }*/
     }
   }
 }
@@ -47,10 +52,14 @@ $category:  "ball",
   .#{$cat} {
     display: inline-block;
     width: 50px;
-    height: 100%;
     margin-right: 5px;
     background: $accent url("../images/icon/icon_#{$cat}.png") no-repeat;
-    @include rounded(5px);
+    @include rounded(8px);
+
+    &:after {
+      content: ".";
+      font-size: 0em;
+    }
   }
 }
 
