@@ -1,3 +1,4 @@
+/* line 6, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_reset.scss */
 html, body, div, span, object, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 abbr, address, cite, code, em, img, small, strong, sub, sup, var,
 b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
@@ -12,14 +13,17 @@ article, aside, figure, footer, header, hgroup, menu, nav, section, menu, time, 
   background: transparent;
 }
 
+/* line 15, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_reset.scss */
 article, aside, figure, footer, header, hgroup, nav, section {
   display: block;
 }
 
+/* line 16, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_reset.scss */
 nav ul {
   list-style: none;
 }
 
+/* line 17, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_reset.scss */
 a {
   margin: 0;
   padding: 0;
@@ -29,20 +33,24 @@ a {
   text-decoration: none;
 }
 
+/* line 18, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_reset.scss */
 del {
   text-decoration: line-through;
 }
 
+/* line 19, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_reset.scss */
 abbr[title], dfn[title] {
   border-bottom: 1px dotted #000;
   cursor: help;
 }
 
+/* line 21, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_reset.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
+/* line 22, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_reset.scss */
 hr {
   display: block;
   height: 1px;
@@ -52,44 +60,54 @@ hr {
   padding: 0;
 }
 
+/* line 23, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_reset.scss */
 input, select {
   vertical-align: middle;
 }
 
+/* line 26, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_reset.scss */
 h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
   text-rendering: optimizeLegibility;
 }
 
+/* line 27, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_reset.scss */
 html {
   -webkit-font-smoothing: antialiased;
 }
 
+/* line 30, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_reset.scss */
 a:hover, a:active {
   outline: none;
 }
 
+/* line 33, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_reset.scss */
 label, input[type=button], input[type=submit], button {
   cursor: pointer;
 }
 
+/* line 36, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_reset.scss */
 a:link {
   -webkit-tap-highlight-color: #FF5E99;
 }
 
+/* line 39, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_reset.scss */
 html {
   overflow-y: scroll;
 }
 
+/* line 42, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_reset.scss */
 button {
   width: auto;
   overflow: visible;
 }
 
+/* line 45, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_reset.scss */
 .ie7 img {
   -ms-interpolation-mode: bicubic;
 }
 
+/* line 9, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_setup.scss */
 nav ul li a, .new span.overlay, #player_nav li a, #listing li a {
   -moz-transition: all .3s ease-in;
   -webkit-transition: all .3s ease-in;
@@ -98,16 +116,19 @@ nav ul li a, .new span.overlay, #player_nav li a, #listing li a {
 }
 
 /* videofitness styles */
+/* line 2, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_global.scss */
 body, select, input, textarea {
   color: #4e4f48;
 }
 
+/* line 3, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_global.scss */
 body {
   background-color: #4e4f48;
   font-family: "Trebuchet MS", san-serif;
   font-size: 80%;
 }
 
+/* line 8, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_global.scss */
 #container {
   width: 820px;
   margin: 0 auto;
@@ -119,11 +140,13 @@ body {
   behavior: url(PIE.htc);
 }
 
+/* line 19, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_global.scss */
 #main {
   hidden: overflow;
   overflow: auto;
 }
 
+/* line 2, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_header.scss */
 header {
   height: 125px;
   background: transparent url(../images/logo.png) no-repeat 0 18px;
@@ -131,19 +154,23 @@ header {
   position: relative;
   margin-bottom: 25px;
 }
+/* line 9, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_header.scss */
 header h1 {
   text-indent: -9999px;
   height: 44px;
 }
+/* line 13, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_header.scss */
 header p {
   font-weight: bold;
   margin-top: 12px;
   text-align: right;
 }
+/* line 18, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_header.scss */
 header form {
   float: right;
   margin-top: 45px;
 }
+/* line 23, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_header.scss */
 header input {
   position: relative;
   height: 16px;
@@ -152,6 +179,7 @@ header input {
   border-radius: 7px;
   behavior: url(PIE.htc);
 }
+/* line 30, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_header.scss */
 header input[type="text"] {
   padding: 5px;
   background: url(../images/search.png) no-repeat 5px 5px;
@@ -159,25 +187,30 @@ header input[type="text"] {
   font: bold italic 1.2em Georgia, "Times New Roman", Times, serif;
   color: #ddd;
 }
+/* line 37, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_header.scss */
 header input[type="submit"] {
   height: 30px;
   width: 40px;
   font-weight: bold;
 }
+/* line 43, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_header.scss */
 header .account {
   position: absolute;
   top: 20px;
   right: 145px;
 }
+/* line 48, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_header.scss */
 header .account a {
   display: block;
   font-size: .9em;
   color: #4e4f48;
   padding-top: 0px;
 }
+/* line 53, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_header.scss */
 header .account a:hover {
   text-decoration: underline;
 }
+/* line 54, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_header.scss */
 header .account a[href^="cart"] {
   position: absolute;
   right: -100px;
@@ -186,10 +219,12 @@ header .account a[href^="cart"] {
   width: 86px;
   line-height: 30px;
 }
+/* line 62, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_header.scss */
 header .account a[href^="cart"] img {
   margin-right: 8px;
 }
 
+/* line 68, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_header.scss */
 .branding #logo {
   display: block;
   position: relative;
@@ -199,12 +234,14 @@ header .account a[href^="cart"] img {
   overflow: hidden;
 }
 
+/* line 2, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_nav.scss */
 nav {
   height: 30px;
   margin: 45px 0 0;
   line-height: 30px;
   font-weight: bold;
 }
+/* line 8, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_nav.scss */
 nav ul li a {
   position: relative;
   width: 112px;
@@ -216,19 +253,23 @@ nav ul li a {
   border-radius: 7px;
   behavior: url(PIE.htc);
 }
+/* line 18, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_nav.scss */
 nav ul li a:hover {
   background-color: #c2cf52;
 }
+/* line 23, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_nav.scss */
 nav ul.account {
   float: none;
   margin-top: 0;
   border: 1px solid #3FF;
 }
 
+/* line 30, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_nav.scss */
 nav ul li, footer ul li {
   float: left;
 }
 
+/* line 36, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_nav.scss */
 #type {
   display: none;
   background-color: #4e4f48;
@@ -243,22 +284,29 @@ nav ul li, footer ul li {
   border-radius: 10px;
   behavior: url(PIE.htc);
 }
+/* line 49, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_nav.scss */
 #type li {
   float: left;
   width: 190px;
 }
+/* line 53, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_nav.scss */
 #type li a {
-  box-sizing: border-box;
   color: white;
   width: 180px;
   margin: 8px;
-  padding-left: 60px;
   text-align: left;
 }
+/* line 59, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_nav.scss */
+#type li a span:after {
+  content: ".";
+  font-size: 0em;
+}
+/* line 66, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_nav.scss */
 #type img {
   padding-right: 8px;
 }
 
+/* line 2, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_footer.scss */
 footer {
   clear: both;
   font-size: .9em;
@@ -266,43 +314,53 @@ footer {
   margin-left: -1em;
   height: 30px;
 }
+/* line 9, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_footer.scss */
 footer li {
   list-style: none;
 }
+/* line 12, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_footer.scss */
 footer li a {
   padding: 0 .8em;
   border-right: 1px solid #4e4f48;
   color: #4e4f48;
 }
 
+/* line 20, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_footer.scss */
 a.last {
   border-right: none;
 }
 
+/* line 22, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_footer.scss */
 h2 {
   font-size: 2em;
 }
 
+/* line 24, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_footer.scss */
 img {
   float: left;
 }
 
+/* line 25, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_footer.scss */
 .copyright {
   text-align: right;
 }
 
+/* line 1, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_feature.scss */
 #feature {
   margin-bottom: 20px;
   float: left;
   position: relative;
 }
+/* line 6, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_feature.scss */
 #feature img {
   position: relative;
 }
 
+/* line 10, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_feature.scss */
 .new {
   float: left;
 }
+/* line 13, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_feature.scss */
 .new span.overlay {
   display: block;
   opacity: 0;
@@ -317,15 +375,18 @@ img {
   padding: 10px;
   color: white;
 }
+/* line 29, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_feature.scss */
 .new a:hover span.overlay {
   opacity: 1;
   bottom: 0;
 }
 
+/* line 35, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_feature.scss */
 span.overlay img {
   padding-right: 6px;
 }
 
+/* line 1, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_ads.scss */
 #ad {
   clear: both;
   margin: 10px 0 30px;
@@ -334,6 +395,7 @@ span.overlay img {
   float: left;
 }
 
+/* line 8, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_ads.scss */
 #newsletter {
   height: 70px;
   width: 70px;
@@ -344,22 +406,26 @@ span.overlay img {
   font-weight: bold;
   text-align: center;
 }
+/* line 18, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_ads.scss */
 #newsletter a {
   color: #c2cf52;
 }
 
+/* line 1, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_workout.scss */
 #price {
   float: right;
   margin: -20px 280px 0 0;
   font-weight: bold;
 }
 
+/* line 6, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_workout.scss */
 #add {
   clear: both;
   margin: -23px 180px 18px 0;
   float: right;
 }
 
+/* line 13, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_workout.scss */
 #player_nav {
   clear: both;
   height: 48px;
@@ -367,9 +433,11 @@ span.overlay img {
   font-size: 1.2em;
   list-style: none;
 }
+/* line 20, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_workout.scss */
 #player_nav li {
   float: left;
 }
+/* line 22, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_workout.scss */
 #player_nav li a {
   position: relative;
   display: block;
@@ -388,11 +456,13 @@ span.overlay img {
   border-radius: 15px 15px 0 0;
   behavior: url(PIE.htc);
 }
+/* line 41, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_workout.scss */
 #player_nav li a:hover {
   background-color: #c2cf52;
   border: 5px solid #c2cf52;
   border-bottom: none;
 }
+/* line 46, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_workout.scss */
 #player_nav li a.active {
   background: white url(../images/player.png) no-repeat;
   color: #4e4f48;
@@ -401,33 +471,42 @@ span.overlay img {
   border-bottom: none;
   cursor: default;
 }
+/* line 57, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_workout.scss */
 #player_nav li li a[href^="#reviews"] {
   margin-right: 0;
 }
+/* line 60, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_workout.scss */
 #player_nav li.detail a {
   background-position: 0 -43px;
 }
+/* line 61, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_workout.scss */
 #player_nav li.video a {
   background-position: 0 -129px;
 }
+/* line 62, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_workout.scss */
 #player_nav li.review a {
   background-position: 0 -215px;
 }
+/* line 64, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_workout.scss */
 #player_nav li.detail a.active {
   background-position: 0 0px;
 }
+/* line 65, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_workout.scss */
 #player_nav li.video a.active {
   background-position: 0 -86px;
 }
+/* line 66, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_workout.scss */
 #player_nav li.review a.active {
   background-position: 0 -172px;
 }
+/* line 68, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_workout.scss */
 #player_nav img {
   vertical-align: middle;
   margin: 0 10px;
   float: none;
 }
 
+/* line 75, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_workout.scss */
 #player {
   width: 640px;
   border: 5px solid #4e4f48;
@@ -441,82 +520,99 @@ span.overlay img {
   behavior: url(PIE.htc);
 }
 
+/* line 89, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_workout.scss */
 #col1 {
   float: left;
   width: 200px;
   padding: 15px;
 }
+/* line 94, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_workout.scss */
 #col1 .stock {
   font-size: 2em;
 }
+/* line 96, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_workout.scss */
 #col1 p {
   font-size: .9em;
   line-height: 1.3em;
 }
 
+/* line 99, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_workout.scss */
 #col2 {
   float: left;
   width: 370px;
   padding: 15px;
 }
+/* line 104, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_workout.scss */
 #col2 .description {
   clear: left;
   padding-top: 15px;
 }
 
+/* line 110, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_workout.scss */
 #details, #video, #reviews {
   clear: both;
   overflow: hidden;
 }
 
+/* line 114, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_workout.scss */
 .classify {
   clear: right;
   margin-top: 10px;
 }
+/* line 118, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_workout.scss */
 .classify p {
   line-height: 35px;
   float: left;
   font-weight: bold;
 }
+/* line 123, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_workout.scss */
 .classify img {
   vertical-align: middle;
   padding: 5px;
 }
 
+/* line 126, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_workout.scss */
 #details {
   line-height: 1.4em;
 }
 
+/* line 128, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_workout.scss */
 #video {
   width: 600px;
   margin: auto;
   padding: 15px;
 }
 
+/* line 133, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_workout.scss */
 #reviews {
   width: 590px;
   margin: auto;
   padding: 20px;
 }
+/* line 138, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_workout.scss */
 #reviews img {
   float: left;
 }
+/* line 139, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_workout.scss */
 #reviews h3 {
   float: left;
   margin: 0 0 5px 5px;
   font-size: 1.1em;
 }
+/* line 140, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_workout.scss */
 #reviews p {
   line-height: 1.4em;
   margin: 0 0 1.2em 0;
 }
 
+/* line 143, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_workout.scss */
 p.reviewer {
   clear: both;
   font-size: .95em;
   margin: 15px 4px;
 }
 
+/* line 1, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_sidebar.scss */
 #sidebar {
   margin: -48px 0 0 10px;
   padding: 10px 15px 25px;
@@ -528,29 +624,36 @@ p.reviewer {
   border-radius: 15px;
   behavior: url(PIE.htc);
 }
+/* line 11, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_sidebar.scss */
 #sidebar img {
   margin-left: 15px;
 }
+/* line 15, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_sidebar.scss */
 #sidebar h3 {
   margin: 5px 12px 10px;
   font-size: 1.2em;
 }
 
+/* line 15, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_category.scss */
 #category #main {
   height: 468px;
 }
 
+/* line 18, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_category.scss */
 #listing ul {
   line-height: 50px;
   border-radius: 10px;
   behavior: url(PIE.htc);
 }
+/* line 22, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_category.scss */
 #listing img {
   padding-right: 8px;
 }
+/* line 24, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_category.scss */
 #listing li {
   list-style: none;
 }
+/* line 27, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_category.scss */
 #listing li a {
   width: 200px;
   margin: 10px;
@@ -560,10 +663,142 @@ p.reviewer {
   color: #4e4f48;
   font-size: 1.3em;
   margin-left: 1em;
-  padding-left: 60px;
 }
+/* line 38, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_category.scss */
 #listing li a:hover {
   border-radius: 8px;
   behavior: url(PIE.htc);
   background-color: #c2cf52;
+}
+
+/* line 47, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_category.scss */
+.ball {
+  display: inline-block;
+  width: 50px;
+  height: 100%;
+  margin-right: 5px;
+  background: #c2cf52 url("../images/icon/icon_ball.png") no-repeat;
+  border-radius: 5px;
+  behavior: url(PIE.htc);
+}
+
+/* line 47, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_category.scss */
+.ballet {
+  display: inline-block;
+  width: 50px;
+  height: 100%;
+  margin-right: 5px;
+  background: #c2cf52 url("../images/icon/icon_ballet.png") no-repeat;
+  border-radius: 5px;
+  behavior: url(PIE.htc);
+}
+
+/* line 47, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_category.scss */
+.bosu {
+  display: inline-block;
+  width: 50px;
+  height: 100%;
+  margin-right: 5px;
+  background: #c2cf52 url("../images/icon/icon_bosu.png") no-repeat;
+  border-radius: 5px;
+  behavior: url(PIE.htc);
+}
+
+/* line 47, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_category.scss */
+.cardio {
+  display: inline-block;
+  width: 50px;
+  height: 100%;
+  margin-right: 5px;
+  background: #c2cf52 url("../images/icon/icon_cardio.png") no-repeat;
+  border-radius: 5px;
+  behavior: url(PIE.htc);
+}
+
+/* line 47, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_category.scss */
+.circuit {
+  display: inline-block;
+  width: 50px;
+  height: 100%;
+  margin-right: 5px;
+  background: #c2cf52 url("../images/icon/icon_circuit.png") no-repeat;
+  border-radius: 5px;
+  behavior: url(PIE.htc);
+}
+
+/* line 47, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_category.scss */
+.kettlebell {
+  display: inline-block;
+  width: 50px;
+  height: 100%;
+  margin-right: 5px;
+  background: #c2cf52 url("../images/icon/icon_kettlebell.png") no-repeat;
+  border-radius: 5px;
+  behavior: url(PIE.htc);
+}
+
+/* line 47, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_category.scss */
+.kickbox {
+  display: inline-block;
+  width: 50px;
+  height: 100%;
+  margin-right: 5px;
+  background: #c2cf52 url("../images/icon/icon_kickbox.png") no-repeat;
+  border-radius: 5px;
+  behavior: url(PIE.htc);
+}
+
+/* line 47, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_category.scss */
+.pilates {
+  display: inline-block;
+  width: 50px;
+  height: 100%;
+  margin-right: 5px;
+  background: #c2cf52 url("../images/icon/icon_pilates.png") no-repeat;
+  border-radius: 5px;
+  behavior: url(PIE.htc);
+}
+
+/* line 47, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_category.scss */
+.spinning {
+  display: inline-block;
+  width: 50px;
+  height: 100%;
+  margin-right: 5px;
+  background: #c2cf52 url("../images/icon/icon_spinning.png") no-repeat;
+  border-radius: 5px;
+  behavior: url(PIE.htc);
+}
+
+/* line 47, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_category.scss */
+.step {
+  display: inline-block;
+  width: 50px;
+  height: 100%;
+  margin-right: 5px;
+  background: #c2cf52 url("../images/icon/icon_step.png") no-repeat;
+  border-radius: 5px;
+  behavior: url(PIE.htc);
+}
+
+/* line 47, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_category.scss */
+.strength {
+  display: inline-block;
+  width: 50px;
+  height: 100%;
+  margin-right: 5px;
+  background: #c2cf52 url("../images/icon/icon_strength.png") no-repeat;
+  border-radius: 5px;
+  behavior: url(PIE.htc);
+}
+
+/* line 47, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_category.scss */
+.yoga {
+  display: inline-block;
+  width: 50px;
+  height: 100%;
+  margin-right: 5px;
+  background: #c2cf52 url("../images/icon/icon_yoga.png") no-repeat;
+  border-radius: 5px;
+  behavior: url(PIE.htc);
 }
