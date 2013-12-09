@@ -109,10 +109,10 @@ button {
 
 /* line 9, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_setup.scss */
 nav ul li a, .new span.overlay, #player_nav li a, #listing li a {
-  -moz-transition: all .3s ease-in;
-  -webkit-transition: all .3s ease-in;
-  -o-transition: all .3s ease-in;
-  transition: all .3s ease-in;
+  -moz-transition: all .2s ease-in;
+  -webkit-transition: all .2s ease-in;
+  -o-transition: all .2s ease-in;
+  transition: all .2s ease-in;
 }
 
 /* videofitness styles */
