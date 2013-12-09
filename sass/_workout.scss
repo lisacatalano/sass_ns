@@ -40,6 +40,7 @@ $image-offset: $image-height * -1;
       border-radius: 15px 15px 0 0;
       behavior: url(PIE.htc);
       @extend %transition;
+      -webkit-transition-property: border, color, background-color;
 
       &:hover {
         background-color: $accent;
@@ -55,7 +56,6 @@ $image-offset: $image-height * -1;
         cursor: default;
       }
     }
-
 
     li a[href^="#reviews"] { margin-right: 0; }
   }

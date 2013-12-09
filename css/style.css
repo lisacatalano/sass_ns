@@ -450,14 +450,15 @@ span.overlay img {
   -o-border-radius: 15px 15px 0 0;
   border-radius: 15px 15px 0 0;
   behavior: url(PIE.htc);
+  -webkit-transition-property: border, color, background-color;
 }
-/* line 44, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_workout.scss */
+/* line 45, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_workout.scss */
 #player_nav li a:hover {
   background-color: #c2cf52;
   border: 5px solid #c2cf52;
   border-bottom: none;
 }
-/* line 49, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_workout.scss */
+/* line 50, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_workout.scss */
 #player_nav li a.active {
   background: white url(../images/player.png) no-repeat;
   color: #4e4f48;
