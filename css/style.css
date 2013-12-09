@@ -295,12 +295,8 @@ nav ul li, footer ul li {
   width: 180px;
   margin: 8px;
   text-align: left;
-  /*      span:after {
-          content: ".";
-          font-size: 0em;
-        }*/
 }
-/* line 66, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_nav.scss */
+/* line 61, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_nav.scss */
 #type img {
   padding-right: 8px;
 }
@@ -662,10 +658,6 @@ p.reviewer {
   color: #4e4f48;
   font-size: 1.3em;
   margin-left: 1em;
-  /*      span:after {
-          content: ".";
-          font-size: 0em;
-        }*/
 }
 /* line 38, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_category.scss */
 #listing li a:hover {
@@ -674,182 +666,76 @@ p.reviewer {
   background-color: #c2cf52;
 }
 
-/* line 52, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_category.scss */
+/* line 46, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_category.scss */
+.category span {
+  display: inline-block;
+  width: 50px;
+  margin-right: 8px;
+  border-radius: 8px;
+  behavior: url(PIE.htc);
+}
+/* line 51, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_category.scss */
+.category span:after {
+  content: '.';
+  font-size: 0em;
+}
+
+/* line 58, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_category.scss */
 .ball {
-  display: inline-block;
-  width: 50px;
-  margin-right: 5px;
   background: #c2cf52 url("../images/icon/icon_ball.png") no-repeat;
-  border-radius: 8px;
-  behavior: url(PIE.htc);
-}
-/* line 59, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_category.scss */
-.ball:after {
-  content: ".";
-  font-size: 0em;
 }
 
-/* line 52, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_category.scss */
+/* line 58, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_category.scss */
 .ballet {
-  display: inline-block;
-  width: 50px;
-  margin-right: 5px;
   background: #c2cf52 url("../images/icon/icon_ballet.png") no-repeat;
-  border-radius: 8px;
-  behavior: url(PIE.htc);
-}
-/* line 59, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_category.scss */
-.ballet:after {
-  content: ".";
-  font-size: 0em;
 }
 
-/* line 52, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_category.scss */
+/* line 58, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_category.scss */
 .bosu {
-  display: inline-block;
-  width: 50px;
-  margin-right: 5px;
   background: #c2cf52 url("../images/icon/icon_bosu.png") no-repeat;
-  border-radius: 8px;
-  behavior: url(PIE.htc);
-}
-/* line 59, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_category.scss */
-.bosu:after {
-  content: ".";
-  font-size: 0em;
 }
 
-/* line 52, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_category.scss */
+/* line 58, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_category.scss */
 .cardio {
-  display: inline-block;
-  width: 50px;
-  margin-right: 5px;
   background: #c2cf52 url("../images/icon/icon_cardio.png") no-repeat;
-  border-radius: 8px;
-  behavior: url(PIE.htc);
-}
-/* line 59, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_category.scss */
-.cardio:after {
-  content: ".";
-  font-size: 0em;
 }
 
-/* line 52, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_category.scss */
+/* line 58, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_category.scss */
 .circuit {
-  display: inline-block;
-  width: 50px;
-  margin-right: 5px;
   background: #c2cf52 url("../images/icon/icon_circuit.png") no-repeat;
-  border-radius: 8px;
-  behavior: url(PIE.htc);
-}
-/* line 59, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_category.scss */
-.circuit:after {
-  content: ".";
-  font-size: 0em;
 }
 
-/* line 52, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_category.scss */
+/* line 58, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_category.scss */
 .kettlebell {
-  display: inline-block;
-  width: 50px;
-  margin-right: 5px;
   background: #c2cf52 url("../images/icon/icon_kettlebell.png") no-repeat;
-  border-radius: 8px;
-  behavior: url(PIE.htc);
-}
-/* line 59, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_category.scss */
-.kettlebell:after {
-  content: ".";
-  font-size: 0em;
 }
 
-/* line 52, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_category.scss */
+/* line 58, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_category.scss */
 .kickbox {
-  display: inline-block;
-  width: 50px;
-  margin-right: 5px;
   background: #c2cf52 url("../images/icon/icon_kickbox.png") no-repeat;
-  border-radius: 8px;
-  behavior: url(PIE.htc);
-}
-/* line 59, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_category.scss */
-.kickbox:after {
-  content: ".";
-  font-size: 0em;
 }
 
-/* line 52, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_category.scss */
+/* line 58, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_category.scss */
 .pilates {
-  display: inline-block;
-  width: 50px;
-  margin-right: 5px;
   background: #c2cf52 url("../images/icon/icon_pilates.png") no-repeat;
-  border-radius: 8px;
-  behavior: url(PIE.htc);
-}
-/* line 59, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_category.scss */
-.pilates:after {
-  content: ".";
-  font-size: 0em;
 }
 
-/* line 52, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_category.scss */
+/* line 58, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_category.scss */
 .spinning {
-  display: inline-block;
-  width: 50px;
-  margin-right: 5px;
   background: #c2cf52 url("../images/icon/icon_spinning.png") no-repeat;
-  border-radius: 8px;
-  behavior: url(PIE.htc);
-}
-/* line 59, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_category.scss */
-.spinning:after {
-  content: ".";
-  font-size: 0em;
 }
 
-/* line 52, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_category.scss */
+/* line 58, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_category.scss */
 .step {
-  display: inline-block;
-  width: 50px;
-  margin-right: 5px;
   background: #c2cf52 url("../images/icon/icon_step.png") no-repeat;
-  border-radius: 8px;
-  behavior: url(PIE.htc);
-}
-/* line 59, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_category.scss */
-.step:after {
-  content: ".";
-  font-size: 0em;
 }
 
-/* line 52, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_category.scss */
+/* line 58, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_category.scss */
 .strength {
-  display: inline-block;
-  width: 50px;
-  margin-right: 5px;
   background: #c2cf52 url("../images/icon/icon_strength.png") no-repeat;
-  border-radius: 8px;
-  behavior: url(PIE.htc);
-}
-/* line 59, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_category.scss */
-.strength:after {
-  content: ".";
-  font-size: 0em;
 }
 
-/* line 52, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_category.scss */
+/* line 58, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_category.scss */
 .yoga {
-  display: inline-block;
-  width: 50px;
-  margin-right: 5px;
   background: #c2cf52 url("../images/icon/icon_yoga.png") no-repeat;
-  border-radius: 8px;
-  behavior: url(PIE.htc);
-}
-/* line 59, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_category.scss */
-.yoga:after {
-  content: ".";
-  font-size: 0em;
 }

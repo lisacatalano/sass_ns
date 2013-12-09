@@ -39,27 +39,24 @@ $category:  "ball",
         @include rounded(8px);
         background-color: $accent;
       }
-
-/*      span:after {
-        content: ".";
-        font-size: 0em;
-      }*/
     }
+  }
+}
+
+.category span {
+  display: inline-block;
+  width: 50px;
+  margin-right: 8px;
+  @include rounded(8px);
+  &:after {
+    content: '.';
+    font-size: 0em;
   }
 }
 
 @each $cat in $category {
   .#{$cat} {
-    display: inline-block;
-    width: 50px;
-    margin-right: 5px;
     background: $accent url("../images/icon/icon_#{$cat}.png") no-repeat;
-    @include rounded(8px);
-
-    &:after {
-      content: ".";
-      font-size: 0em;
-    }
   }
 }
 
