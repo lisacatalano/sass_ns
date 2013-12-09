@@ -678,65 +678,66 @@ p.reviewer {
 /* line 51, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_category.scss */
 .category span:after {
   content: '.';
-  font-size: 0em;
+  font-size: .1em;
+  color: #c2cf52;
 }
 
-/* line 58, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_category.scss */
+/* line 59, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_category.scss */
 .ball {
   background: #c2cf52 url("../images/icon/icon_ball.png") no-repeat;
 }
 
-/* line 58, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_category.scss */
+/* line 59, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_category.scss */
 .ballet {
   background: #c2cf52 url("../images/icon/icon_ballet.png") no-repeat;
 }
 
-/* line 58, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_category.scss */
+/* line 59, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_category.scss */
 .bosu {
   background: #c2cf52 url("../images/icon/icon_bosu.png") no-repeat;
 }
 
-/* line 58, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_category.scss */
+/* line 59, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_category.scss */
 .cardio {
   background: #c2cf52 url("../images/icon/icon_cardio.png") no-repeat;
 }
 
-/* line 58, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_category.scss */
+/* line 59, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_category.scss */
 .circuit {
   background: #c2cf52 url("../images/icon/icon_circuit.png") no-repeat;
 }
 
-/* line 58, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_category.scss */
+/* line 59, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_category.scss */
 .kettlebell {
   background: #c2cf52 url("../images/icon/icon_kettlebell.png") no-repeat;
 }
 
-/* line 58, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_category.scss */
+/* line 59, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_category.scss */
 .kickbox {
   background: #c2cf52 url("../images/icon/icon_kickbox.png") no-repeat;
 }
 
-/* line 58, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_category.scss */
+/* line 59, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_category.scss */
 .pilates {
   background: #c2cf52 url("../images/icon/icon_pilates.png") no-repeat;
 }
 
-/* line 58, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_category.scss */
+/* line 59, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_category.scss */
 .spinning {
   background: #c2cf52 url("../images/icon/icon_spinning.png") no-repeat;
 }
 
-/* line 58, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_category.scss */
+/* line 59, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_category.scss */
 .step {
   background: #c2cf52 url("../images/icon/icon_step.png") no-repeat;
 }
 
-/* line 58, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_category.scss */
+/* line 59, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_category.scss */
 .strength {
   background: #c2cf52 url("../images/icon/icon_strength.png") no-repeat;
 }
 
-/* line 58, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_category.scss */
+/* line 59, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_category.scss */
 .yoga {
   background: #c2cf52 url("../images/icon/icon_yoga.png") no-repeat;
 }

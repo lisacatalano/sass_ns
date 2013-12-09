@@ -50,7 +50,8 @@ $category:  "ball",
   @include rounded(8px);
   &:after {
     content: '.';
-    font-size: 0em;
+    font-size: .1em;
+    color: $accent;
   }
 }
 
