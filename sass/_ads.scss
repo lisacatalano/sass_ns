@@ -18,58 +18,73 @@
   a {   color: $accent;  }
 }
 
+
+// New
 .ad {
   clear: both;
-  width: 100%;
-  height: 100px;
+  width: 728px;
+  height: 90px;
+  float: left;
   background-color: $accent;
   position: relative;
 
-  div {
-    padding-left: 25px;
+  .msg {
+    padding-left: 35px;
     width: 100%;
-    height: 100px;
+//    height: 90px;
     font-size: 3em;
-    line-height: 100px;
+    line-height: 90px;
     position: absolute;
     top: 0;
-    background-color: $accent;
+    opacity: 0;
+
+    // First screen of ad has larger type
+    &:first-of-type {
+      font-size: 3.5em;
+    }
+    // Last screen of ad has smaller type and an image
+    &:last-of-type {
+      font-size: 2.2em;
+      line-height: 1.2em;
+      p {
+        margin-top: 10px;
+        width: 60%;
+        float: left;
+      }
+      img {
+        float: left;
+        margin: 20px 5px;
+      }
+    }
   }
 }
 
-$ad-msg-count: 5;
-$ad-display-duration: 3;
-$ad-transition-duration: 1;
-$ad-duration: $ad-display-duration + $ad-transition-duration;
-$total-duration: $ad-duration * $ad-msg-count;
+.newsletter {
+  height: 70px;
+  width: 70px;
+  padding: 10px 8px;
+  background-color: $base;
+  float: right;
+  font-weight: bold;
+  text-align: center;
+
+  a {   color: $accent;  }
+}
+
+
 
 // Animation
+$ad-screen-count: 5;
+$ad-screen-duration: 3;
+$ad-fade-duration: 1;
+
+$ad-duration: $ad-screen-duration + $ad-fade-duration;
+$total-duration: $ad-duration * $ad-screen-count;
+
 @-webkit-keyframes adAnimation {
-  0% { opacity: 0; }
-  5%, 20% { opacity: 1; }
-  24.9%, 100% { opacity: 0; }
-}
-
-.msg {
-  opacity: 0;
-
-  &:first-of-type {
-    opacity: 1;
-  }
-  &:last-of-type {
-    font-size: 2em;
-    line-height: 1em;
-    p {
-      margin-top: 1em;
-      width: 60%;
-      float: left;
-    }
-    img {
-      float: left;
-      margin: 20px 5px;
-      opacity: .8;
-    }
-  }
+  0%        { opacity: 0; }
+  5%, 20%   { opacity: 1; }
+  25%, 100% { opacity: 0; }
 }
 
 .ad  {
@@ -94,11 +109,3 @@ $total-duration: $ad-duration * $ad-msg-count;
     -webkit-animation-delay: 16s;
   }
 }
-
-//
-//@for $i from 1 through $ad-msg-count {
-//  .ad .msg:nth-of-type(#{$i}) {
-//    $delay: #{ ($i - 1) * ($ad-duration) - $ad-transition-duration }s;
-//    -webkit-animation-delay: $delay;
-//  }
-//}
