@@ -71,20 +71,32 @@
   a {   color: $accent;  }
 }
 
-
-
 // Animation
-$ad-screen-count: 5;
+$ad-screen-count: 6;
 $ad-screen-duration: 3;
 $ad-fade-duration: 1;
 
 $ad-duration: $ad-screen-duration + $ad-fade-duration;
 $total-duration: $ad-duration * $ad-screen-count;
 
+$ad-screen-pct: 100 / $ad-screen-count;
+$ad-trans-pct: $ad-fade-duration / $ad-duration * $ad-screen-pct;
+$ad-fade-pct: $ad-trans-pct + $ad-screen-pct;
+
+$ad-screen-pct: unquote($ad-screen-pct + "%");
+$ad-trans-pct: unquote($ad-trans-pct + "%");
+$ad-fade-pct: unquote($ad-fade-pct + "%");
+
 @-webkit-keyframes adAnimation {
-  0%        { opacity: 0; }
-  5%, 20%   { opacity: 1; }
-  25%, 100% { opacity: 0; }
+  0%  {
+    opacity: 0;
+  }
+  #{$ad-trans-pct}, #{$ad-screen-pct} {
+    opacity: 1;
+  }
+  #{$ad-fade-pct}, 100% {
+    opacity: 0;
+  }
 }
 
 .ad {
