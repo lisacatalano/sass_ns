@@ -345,17 +345,18 @@ img {
   margin-bottom: 20px;
   float: left;
   position: relative;
+  overflow: hidden;
 }
-/* line 6, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_feature.scss */
+/* line 7, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_feature.scss */
 #feature img {
   position: relative;
 }
 
-/* line 10, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_feature.scss */
+/* line 11, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_feature.scss */
 .new {
   float: left;
 }
-/* line 13, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_feature.scss */
+/* line 14, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_feature.scss */
 .new span.overlay {
   display: block;
   opacity: 0;
@@ -370,13 +371,13 @@ img {
   padding: 10px;
   color: white;
 }
-/* line 29, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_feature.scss */
+/* line 30, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_feature.scss */
 .new a:hover span.overlay {
   opacity: 1;
   bottom: 0;
 }
 
-/* line 35, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_feature.scss */
+/* line 36, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_feature.scss */
 span.overlay img {
   padding-right: 6px;
 }
