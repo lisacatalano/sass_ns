@@ -25,6 +25,12 @@
     padding: 10px;
     color: white;
     @extend %transition;
+
+//    img {
+//      background-color: $accent;
+//      @include rounded(5px);
+//      width: 35px;
+//    }
   }
 
   a:hover span.overlay {

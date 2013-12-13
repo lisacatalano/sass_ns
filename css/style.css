@@ -371,13 +371,13 @@ img {
   padding: 10px;
   color: white;
 }
-/* line 30, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_feature.scss */
+/* line 36, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_feature.scss */
 .new a:hover span.overlay {
   opacity: 1;
   bottom: 0;
 }
 
-/* line 36, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_feature.scss */
+/* line 42, C:/Users/Lisa/Dropbox/development/sass_ns/sass/_feature.scss */
 span.overlay img {
   padding-right: 6px;
 }
