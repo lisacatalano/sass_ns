@@ -5,11 +5,12 @@ $base:    #4E4F48;
 $accent:  #C2CF52;
 $basefont: "Trebuchet MS", san-serif;
 
+// Lists
+$vendors: "webkit", "moz", "ms", "o";
 
 %transition {
   @include transition(all .2s ease-in);
 }
-
 
 @mixin rounded($radius: 7px) {
   border-radius: $radius;
