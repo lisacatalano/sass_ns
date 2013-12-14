@@ -1,0 +1,59 @@
+// Animation
+$ad-screen-count: 6;
+$ad-screen-duration: 3;
+$ad-fade-duration: 1;
+
+$ad-duration: $ad-screen-duration + $ad-fade-duration;
+$total-duration: $ad-duration * $ad-screen-count;
+
+$ad-screen-pct: 100 / $ad-screen-count;
+$ad-trans-pct: $ad-fade-duration / $ad-duration * $ad-screen-pct;
+$ad-fade-pct: $ad-trans-pct + $ad-screen-pct;
+
+$ad-screen-pct: unquote($ad-screen-pct + "%");
+$ad-trans-pct: unquote($ad-trans-pct + "%");
+$ad-fade-pct: unquote($ad-fade-pct + "%");
+
+$vendors: "webkit", "moz", "ms", "o";
+
+@mixin fadeInOut {
+  0%                                  { opacity: 0; }
+  #{$ad-trans-pct}, #{$ad-screen-pct} { opacity: 1; }
+  #{$ad-fade-pct}, 100%               { opacity: 0; }
+}
+
+@-webkit-keyframes adAnimation {
+  @include fadeInOut;
+}
+@-moz-keyframes adAnimation {
+  @include fadeInOut;
+}
+@-ms-keyframes adAnimation {
+  @include fadeInOut;
+}
+@-o-keyframes adAnimation {
+  @include fadeInOut;
+}
+@-keyframes adAnimation {
+  @include fadeInOut;
+}
+
+.ad {
+  .msg {
+    @each $vendor in $vendors {
+      -#{$vendor}-animation: adAnimation #{$total-duration}s infinite;
+    }
+    animation: adAnimation #{$total-duration}s infinite;
+  }
+  // you can nest a for loop inside a selector
+  @for $i from 1 through $ad-screen-count {
+    .msg:nth-of-type(#{$i}) {
+      $delay: #{ ($i - 1) * ($ad-duration) }s;
+
+      @each $vendor in $vendors {
+        -#{$vendor}-animation-delay: $delay;
+      }
+      animation-delay: $delay;
+    }
+  }
+}

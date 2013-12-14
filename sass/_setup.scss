@@ -7,11 +7,9 @@ $basefont: "Trebuchet MS", san-serif;
 
 
 %transition {
-  -moz-transition: all .2s ease-in;
-  -webkit-transition: all .2s ease-in;
-  -o-transition: all .2s ease-in;
-  transition: all .2s ease-in;
+  @include transition(all .2s ease-in);
 }
+
 
 @mixin rounded($radius: 7px) {
   border-radius: $radius;

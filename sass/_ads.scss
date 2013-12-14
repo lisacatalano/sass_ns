@@ -18,6 +18,8 @@
 //  a {   color: $accent;  }
 //}
 
+@import "animation";
+
 
 // New
 .ad {
@@ -69,45 +71,4 @@
   text-align: center;
 
   a {   color: $accent;  }
-}
-
-// Animation
-$ad-screen-count: 6;
-$ad-screen-duration: 3;
-$ad-fade-duration: 1;
-
-$ad-duration: $ad-screen-duration + $ad-fade-duration;
-$total-duration: $ad-duration * $ad-screen-count;
-
-$ad-screen-pct: 100 / $ad-screen-count;
-$ad-trans-pct: $ad-fade-duration / $ad-duration * $ad-screen-pct;
-$ad-fade-pct: $ad-trans-pct + $ad-screen-pct;
-
-$ad-screen-pct: unquote($ad-screen-pct + "%");
-$ad-trans-pct: unquote($ad-trans-pct + "%");
-$ad-fade-pct: unquote($ad-fade-pct + "%");
-
-@-webkit-keyframes adAnimation {
-  0%  {
-    opacity: 0;
-  }
-  #{$ad-trans-pct}, #{$ad-screen-pct} {
-    opacity: 1;
-  }
-  #{$ad-fade-pct}, 100% {
-    opacity: 0;
-  }
-}
-
-.ad {
-  .msg {
-    -webkit-animation: adAnimation #{$total-duration}s infinite;
-  }
-  // you can nest a for loop inside a selector
-  @for $i from 1 through $ad-screen-count {
-    .msg:nth-of-type(#{$i}) {
-      $delay: #{ ($i - 1) * ($ad-duration) }s;
-      -webkit-animation-delay: $delay;
-    }
-  }
 }
