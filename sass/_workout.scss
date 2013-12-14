@@ -1,7 +1,7 @@
 $image-height: 43px;
 
 @mixin bg-pos ($offset: 0) {
-  background-position: 0 -($image-height * $offset);
+  background-position: 0 (-($image-height * $offset));
 }
 
 #price {
@@ -43,7 +43,7 @@ $image-height: 43px;
       border-radius: 15px 15px 0 0;
       behavior: url(PIE.htc);
       @extend %transition;
-      -webkit-transition-property: border, color, background-color;
+      @include transition-property(border, color, background-color);
 
       &:hover {
         background-color: $accent;
