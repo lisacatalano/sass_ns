@@ -803,26 +803,91 @@ p.reviewer {
   font-size: 1.2em;
 }
 
-/* line 15, ../sass/_category.scss */
+/* line 130, icon/*.png */
+.icon-sprite, .icon-icon_ball, .icon-icon_ballet, .icon-icon_bosu, .icon-icon_cardio, .icon-icon_circuit, .icon-icon_kettlebell, .icon-icon_kickbox, .icon-icon_pilates, .icon-icon_spinning, .icon-icon_step, .icon-icon_strength, .icon-icon_yoga {
+  background: url('../images/icon-sd7ab6528a0.png') no-repeat;
+}
+
+/* line 60, ../../../../../../Program Files (x86)/Prepros/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-icon_ball {
+  background-position: 0 -200px;
+}
+
+/* line 60, ../../../../../../Program Files (x86)/Prepros/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-icon_ballet {
+  background-position: 0 -100px;
+}
+
+/* line 60, ../../../../../../Program Files (x86)/Prepros/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-icon_bosu {
+  background-position: 0 -500px;
+}
+
+/* line 60, ../../../../../../Program Files (x86)/Prepros/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-icon_cardio {
+  background-position: 0 -50px;
+}
+
+/* line 60, ../../../../../../Program Files (x86)/Prepros/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-icon_circuit {
+  background-position: 0 0;
+}
+
+/* line 60, ../../../../../../Program Files (x86)/Prepros/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-icon_kettlebell {
+  background-position: 0 -350px;
+}
+
+/* line 60, ../../../../../../Program Files (x86)/Prepros/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-icon_kickbox {
+  background-position: 0 -400px;
+}
+
+/* line 60, ../../../../../../Program Files (x86)/Prepros/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-icon_pilates {
+  background-position: 0 -300px;
+}
+
+/* line 60, ../../../../../../Program Files (x86)/Prepros/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-icon_spinning {
+  background-position: 0 -150px;
+}
+
+/* line 60, ../../../../../../Program Files (x86)/Prepros/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-icon_step {
+  background-position: 0 -550px;
+}
+
+/* line 60, ../../../../../../Program Files (x86)/Prepros/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-icon_strength {
+  background-position: 0 -450px;
+}
+
+/* line 60, ../../../../../../Program Files (x86)/Prepros/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-icon_yoga {
+  background-position: 0 -250px;
+}
+
+/* line 19, ../sass/_category.scss */
 #category #main {
   height: 468px;
 }
 
-/* line 18, ../sass/_category.scss */
+/* line 22, ../sass/_category.scss */
 #listing ul {
   line-height: 50px;
   border-radius: 10px;
   behavior: url(PIE.htc);
 }
-/* line 22, ../sass/_category.scss */
+/* line 26, ../sass/_category.scss */
 #listing img {
   padding-right: 8px;
 }
-/* line 24, ../sass/_category.scss */
+/* line 28, ../sass/_category.scss */
 #listing li {
   list-style: none;
 }
-/* line 27, ../sass/_category.scss */
+/* line 31, ../sass/_category.scss */
 #listing li a {
   width: 200px;
   margin: 10px;
@@ -833,14 +898,14 @@ p.reviewer {
   font-size: 1.3em;
   margin-left: 1em;
 }
-/* line 38, ../sass/_category.scss */
+/* line 42, ../sass/_category.scss */
 #listing li a:hover {
   border-radius: 8px;
   behavior: url(PIE.htc);
   background-color: #c2cf52;
 }
 
-/* line 46, ../sass/_category.scss */
+/* line 50, ../sass/_category.scss */
 .category span {
   display: inline-block;
   width: 50px;
@@ -848,69 +913,9 @@ p.reviewer {
   border-radius: 8px;
   behavior: url(PIE.htc);
 }
-/* line 51, ../sass/_category.scss */
+/* line 55, ../sass/_category.scss */
 .category span:after {
   content: '.';
   font-size: .1em;
   color: #c2cf52;
-}
-
-/* line 59, ../sass/_category.scss */
-.ball {
-  background: #c2cf52 url('../images/icon/icon_ball.png?1386521335') no-repeat;
-}
-
-/* line 59, ../sass/_category.scss */
-.ballet {
-  background: #c2cf52 url('../images/icon/icon_ballet.png?1386521323') no-repeat;
-}
-
-/* line 59, ../sass/_category.scss */
-.bosu {
-  background: #c2cf52 url('../images/icon/icon_bosu.png?1386521346') no-repeat;
-}
-
-/* line 59, ../sass/_category.scss */
-.cardio {
-  background: #c2cf52 url('../images/icon/icon_cardio.png?1386521355') no-repeat;
-}
-
-/* line 59, ../sass/_category.scss */
-.circuit {
-  background: #c2cf52 url('../images/icon/icon_circuit.png?1386521369') no-repeat;
-}
-
-/* line 59, ../sass/_category.scss */
-.kettlebell {
-  background: #c2cf52 url('../images/icon/icon_kettlebell.png?1386521384') no-repeat;
-}
-
-/* line 59, ../sass/_category.scss */
-.kickbox {
-  background: #c2cf52 url('../images/icon/icon_kickbox.png?1386521395') no-repeat;
-}
-
-/* line 59, ../sass/_category.scss */
-.pilates {
-  background: #c2cf52 url('../images/icon/icon_pilates.png?1386521408') no-repeat;
-}
-
-/* line 59, ../sass/_category.scss */
-.spinning {
-  background: #c2cf52 url('../images/icon/icon_spinning.png?1386521418') no-repeat;
-}
-
-/* line 59, ../sass/_category.scss */
-.step {
-  background: #c2cf52 url('../images/icon/icon_step.png?1386521426') no-repeat;
-}
-
-/* line 59, ../sass/_category.scss */
-.strength {
-  background: #c2cf52 url('../images/icon/icon_strength.png?1386521438') no-repeat;
-}
-
-/* line 59, ../sass/_category.scss */
-.yoga {
-  background: #c2cf52 url('../images/icon/icon_yoga.png?1386521446') no-repeat;
 }

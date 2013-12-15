@@ -1,3 +1,7 @@
+@import "compass/utilities/sprites";
+@import "icon/*.png";
+@include all-icon-sprites;
+
 // Workout Categories
 $category:  "ball",
             "ballet",
@@ -55,9 +59,9 @@ $category:  "ball",
   }
 }
 
-@each $cat in $category {
-  .#{$cat} {
-    background: $accent image_url("icon/icon_#{$cat}.png") no-repeat;
-  }
-}
+//@each $cat in $category {
+//  .#{$cat} {
+//    background: $accent image_url("icon/icon_#{$cat}.png") no-repeat;
+//  }
+//}
 
