@@ -57,8 +57,7 @@ $category:  "ball",
 
 @each $cat in $category {
   .#{$cat} {
-    background: $accent url("../images/icon/icon_#{$cat}.png") no-repeat;
+    background: $accent image_url("icon/icon_#{$cat}.png") no-repeat;
   }
 }
-
 

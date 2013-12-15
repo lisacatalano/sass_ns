@@ -32,7 +32,7 @@ $image-height: 43px;
       height: $image-height;
       line-height: $image-height;
       padding: 0 0 0 50px;
-      background: $base url(../images/player.png) no-repeat;
+      background: $base image_url("player.png") no-repeat;
       border: 5px solid $base;
       border-bottom: none;
       color: white;
@@ -48,7 +48,7 @@ $image-height: 43px;
         border-bottom: none;
       }
       &.active {
-        background: #ffffff url(../images/player.png) no-repeat;
+        background: #ffffff image_url("player.png") no-repeat;
         color: $base;
         height: $image-height;
         border: 5px solid $base;
